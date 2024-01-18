@@ -1,0 +1,398 @@
+<html>
+<head>
+    <title>Oneplus11r</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></link>
+<style>
+    .heading-align{
+        text-align: center;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .para{
+        text-align: center;
+    }
+    .logo{
+        color:limegreen;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    header{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 4px 10%;
+        background-color: black;
+    }
+        .nav-link{
+        list-style: none;
+        display:flex;
+    }
+    .nav-link li{
+        padding: 4% 20px;
+        margin-top: 20px;
+    }
+    .nav-link li a{
+        color: grey;
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: larger;
+        margin-left:95%;
+        letter-spacing: 0.5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+    }
+     .nav-link li a::after{
+        position: absolute;
+        content: "";
+        left: 0%;
+        bottom: -7px;
+        width: 0;
+        height: 2px;
+        background-color: red;
+        transition: 0.5s linear;
+     }
+     .nav-link li a:hover:after{
+        width: 100%;
+     }
+    .nav-link li a:hover{
+    color: whitesmoke;
+    }
+    img{
+        width: 56%;
+        margin-left: 22%;
+    }
+    button{
+        
+        background-color: grey;
+        color: white;
+        border:none;
+        padding: 9px 25px;
+        border-radius: 9px;
+        font-size: larger;
+        font-weight: lighter;
+        transition: 0.3s;
+    }
+    #test {
+        margin-right: 30px;
+    }
+button:hover{
+    background: black;
+}
+    h2{
+        margin-left: 7%;
+    }
+    table {
+        text-align: center;
+        width: 54%;
+        height: 65%;
+        border-color: grey;
+        margin-left: 20%;
+    }
+    table,th,td{
+        border:1px solid black;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer{
+            height: auto;
+            width: auto;
+            padding: 50px 100px;
+            background-color: black;
+            color: #fff;
+            
+        }
+      .container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        grid-gap: 20px;
+        width: 100%;
+      }
+    .container .sec h2{
+        margin-bottom: 15px;
+    }
+    .container .sec .sci{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(4,50px);
+
+    }
+    .container .sec .sci li{
+        list-style: none;
+    }
+    
+    .container .sec .sci li a i{
+        color: grey;
+        font-size: 25px;
+    }
+    .container .sec .sci li a i:hover{
+     color: white;
+    }
+    .container .quicklinks ul li{
+        list-style: none;
+    }
+    .container .quicklinks ul li a{
+        text-decoration: none;
+        margin-top: 10px;
+        display: inline-block;
+        color: gray;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+    .container .quicklinks ul li a:hover{
+    color: white;}
+    .container .aboutus li{
+        list-style: none;
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        margin-bottom: 15px;
+    }
+    
+    .container .aboutus li a{
+        text-decoration: none;
+
+    }
+    .copyrightText{
+        color: grey;
+        margin-top: 20px;
+        text-align: center;   
+    }
+    #shoplink{
+        margin-right: 10px;
+    }
+    .Ram{
+        display:grid;
+        grid-template-columns: repeat(2,900px);
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .Ram img{
+        justify-content: center;
+        width: 650px;
+         height: 500px;
+        border-radius: 50px;
+        padding-left: 100px;
+    }
+    .Charge{
+        text-align: center;
+    }
+    .padding{
+        padding: 0 20px;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Oneplus 1+</h2>
+    
+<nav>
+    <ul class="nav-link">
+     <li><a href="#">Home</a></li>
+     <li><a href="#">Product</a></li>
+     <li><a href="#">Pricing</a></li>
+     <li><a href="#">Service</a></li>
+    </ul>
+</nav>
+<button> Contact us</button>
+</header><br>
+<h1 class="heading-align">OnePlus11r</h1>
+
+<img src="./Oneplus1.jpg">
+
+<p class="Para">
+    OnePlus 11R 5G (Sonic Black, 8GB RAM, 128GB Storage)
+Visit the OnePlus Store<br>
+ 4.4 4.4 out of 5 stars    7,976 ratings | 913 answered questions<br>
+<span style="color: green;">39,999-/only</span><br>
+Inclusive of all tax</span>es
+</p><br>
+<div class="padding">
+<h2>About This Item</h2><br>
+<u1>
+    <li>Camera: Sensor: 50MP Main Camera with Sony IMX890 (OIS supported), 8MP Ultrawide Camera (FOV: 120 degree) and Macro Lens; 16MP Front (Selfie) Camera with EIS support</li><br>
+   <li> Camera Modes: Nightscape, Ultra HDR, Smart Scene Recognition, Portrait Mode, Pro Mode, Panorama, Tilt-Shift mode, Long Exposure, Dual-View Video, Retouch, Movie Mode, Raw file, Filters, Super Stable, Video Nightscape, Video HDR, Video Portrait, Focus Tracking, Timelapse, Macro mode
+    Display: 6.7 Inches; 120 Hz Super Fluid AMOLED; Resolution: 2772 X 1240 pixels ,450 ppi, 20.1:9, 10-bit Color Depth, HDR10+
+    Operating System: OxygenOS based on Android 13.</li><br>
+   <li> Processor: Snapdragon 8+ Gen 1 Mobile Platform
+    8GB LPDDR5X RAM, 128GB UFS3.1 STORAGE</li><br>
+   <li> Battery & Charging: 5000 mAh with 100W SUPERVOOC
+    In-Display Fingerprint Sensor</li>
+</u1><br><br>
+  
+<table border="3" cellspadding="10" cellspacing="0">
+
+    <tr> 
+        <th>Name</th>
+        <td>Oneplus</td>
+    </tr>
+    <tr>
+        <th>Model</th>
+        <td>11R</td>
+    </tr>
+    <tr>
+        <th>Color</th>
+        <td>White/Red</td>
+    </tr>
+    <tr>
+        <th>Processor</th>
+        <td>Snapdragon 8+ Gen</td>
+    </tr>
+    <tr>
+        <th>Battery health</th>
+        <td> 5000 mAh </td>
+    </tr>
+    <tr>
+        <th>Display</th>
+        <td>6.7 Inches; 120 Hz Super Fluid AMOLED</td>
+    </tr>
+    <tr>
+        <th>Operating System</th>
+        <td>Android 13</td>
+    </tr>
+</table>
+<br/>
+<p>Capture clearer, high-detail images with OnePlus 11R’s 50 MP Triple Camera System. Featuring an 
+    upgraded IMX890 sensor, this dynamo camera system gives you the stability and performance you need to 
+    share your story more vividly with the world. 
+    And you can bring your friends along for the ride with a 120° wide-angle lens that’s amazing for group shots.
+<h2>ICE 2.0</h2><br/>
+<h3>No shot is too fast</h3><br/>
+Action photography fans will love the new ICE 2.0 shutter speed algorithm. Whether you’re shooting extreme sports, 
+frisky pets, or frolicking kids, this camera has the speed to make sure your photos stay clear, smooth, and beautiful.
+OnePlus 11R comes pre-installed with OxygenOS 13, OnePlus’ latest Fast and Smooth operating system that’s intuitively 
+designed based on elements of the natural world.
+ A streamlined, effortlessly smooth, and burdenless user experience is now within reach.<br/>
+<br/>
+<h3>Currently in Community</h3><br/>
+
+<h2>Innovation becomes relentless when shared.<br/>
+OnePlus has a Never Settle story with you, <span style="color: red;">Let’s Co-Create.</span></h2></p>
+
+
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./oneplus2.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./oneplus6.jpg" class="d-block w-50" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./oneplus3.jpg" class="d-block w-50" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+    <p class="para">
+        OnePlus Technology (Shenzhen) Co., Ltd. (Chinese: 一加科技; pinyin: Yījiā Kējì), doing business as OnePlus, is a Chinese consumer electronics manufacturer headquartered in Shenzhen, Guangdong, China.[6] It is a subsidiary of Oppo.
+        OnePlus was founded by Pete Lau and Carl Pei on 16 December 2013 to develop a high-end flagship smartphone running Cyanogen OS that would come to be known as the OnePlus One. OnePlus would continue to release phones throughout the 2010s and 2020s.<br>
+        In 2020, OnePlus released the OnePlus Nord, its first mid-range smartphone since the OnePlus X in 2015. Pei would oversee the design and marketing of OnePlus' products until his departure from the company in October 2020, going on to found the consumer electronics manufacturer Nothing. In 2022–2023, OnePlus is still actively producing affordably priced phones ($200–749 USD) with top-of-the-line specs comparable to leading Samsung phones, including 5G connectivity.
+         OnePlus is also partnered with T-Mobile to provide OnePlus Phone 
+        through T-Mobile to extend its legitimacy and reach.<br>
+        OnePlus Technology (Shenzhen) Co., Ltd. was founded on 16 December 2013 by former Oppo vice-president Pete Lau and Carl Pei.[7] According to Chinese public records, OnePlus' only institutional Investor is Oppo Electronics.[4] <br>
+        Lau denied that OnePlus was a Subsidiary of Oppo and stated that Oppo Electronics and not Oppo Mobile (the phone manufacturer) is a major investor of OnePlus. Lau went on to state that they were "in talks with other investors",[8] although OnePlus has confirmed it uses Oppo's manufacturing line and shares part of the supply chain resources with Oppo.[9]
+        Lau founded OnePlus with the intent to design a smartphone that would balance high-end quality with a lower price than other phones in its class, believing that users would "never settle" (a slogan that would come to be used by OnePlus in its marketing material) for the lower-quality devices produced by other companies. Lau also showed aspirations of being the "Muji of the tech industry",<br>
+        emphasizing its focus on high-quality products with simplistic, user-friendly designs.[10] Continuing Lau's association with the platform from the Oppo N1,[11] OnePlus entered into an exclusive licensing agreement with Cyanogen, Inc. to base its products' Android distribution upon a variant of the popular custom ROM CyanogenMod and use its trademarks outside of China.[12][13] OnePlus would later develop a version of Android, known as Oxygen OS, for use in its phones.
+    </p>
+    <img src="./oneplus4.jpg">
+         
+               <div class="Ram">
+        <img src="../img/One3.jpg">
+        <div class="pics" style="width: 500px;">
+        <p><h3>18GB RAM and RAM-Vita</h3><br/>
+<h1>Do more effortlessly</h1>
+Fifty³. That’s the number of apps you can run simultaneously with up<br/>
+to 18GB of RAM and the RAM-Vita feature to ramp up your <br/>
+multi-tasking with server-level RAM management.</p>
+</div>
+    </div><br/>
+    <div class="Charge">
+    <h3>  SUPERVOOC S Charging
+Management Chip</h3>
+<h1>Super intelligent battery management</h1>
+<p>The SUPERVOOC S charging management chip works behind the scenes using innovative OnePlus <br/>
+adaptive charging technology to optimize your fast charging and battery use, so you don’t have to.</p>
+    </div>
+    <img src="../img/one2.png">
+    </div>
+    <footer>
+        <div class="container">
+            <div class="sec quicklinks">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                     <li><a href="#">Our service</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                       <li><a href="#">Affilate Program</a></li>
+
+                </ul>
+            
+                     
+                       
+            </div>
+              <div class="sec quicklinks">
+                
+                <h2>GetHelp</h2>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Shipping</a></li>
+                      <li><a href="#">Returns</a></li>
+                       <li><a href="#">Order Status</a></li>
+                       <li><a href="#">Payment Options</a></li>
+                       
+                </ul>
+        
+              </div>
+
+            <div class="sec quicklinks">
+              <h2>Online Shop</h2>
+                <ul>
+                    <li><a href="#">Phones</a></li>
+                     <li><a href="#">Covers</a></li>
+                      <li><a href="#">Headphones</a></li>
+                       <li><a href="#">Watch</a></li>
+                </ul>
+            </div>
+              <div class="sec aboutus">
+              <h2>FollowUs</h2>
+              <ul class="sci">
+                <li><a href="https://twitter.com/oneplus?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/oneplus/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://api.whatsapp.com/message/A2OJ745IWSB5K1?autoload=1&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li><a href="https://www.instagram.com/oneplus/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </div>
+        </div>
+      <div class="copyrightText">
+        <p>Copyright 2023@all copyrights reserved </p>
+    </div>
+    </footer>
+</body>
+</html>
+
+        
